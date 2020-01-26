@@ -46,6 +46,7 @@ header p {
 
 section img {
   width: 50%;
+  min-width: 300px;
   display: block;
   margin: 0 auto;
 }
@@ -93,6 +94,11 @@ ul li {
   list-style: none;
   display: flex;
   line-height: 2.5em;
+}
+
+.diamond-icon {
+  height: 1.3em;
+  align-self: center;
 }
 
 ul p {
@@ -209,5 +215,9 @@ footer a {
   footer a {
     font-size: 0.875em;
     width: 10em;
+  }
+
+  .diamond-icon {
+    height: 0.8em;
   }
 }
