@@ -46,6 +46,7 @@ header p {
 
 section img {
   width: 50%;
+  max-width: 100%;
   min-width: 300px;
   display: block;
   margin: 0 auto;
