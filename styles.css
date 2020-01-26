@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+header {
+  width: 100%;
+  height: 197px;
+  background: #fff8f8;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1,
+p {
+  margin: 0.1em;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+header p {
+  font-size: 2.25em;
+}
+
+#img-div {
+  margin: 40px 0px;
+}
+
+section img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+section p {
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.bio h2 {
+  width: 37%;
+  text-align: right;
+}
+
+.bio p {
+  width: 33%;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.career-section {
+  width: 100%;
+  background: #fff8f8;
+}
+
+.career-section h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.ul-all {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  line-height: 2.5em;
+}
+
+ul p {
+  padding: 0 20px;
+}
+
+.diamond {
+  height: 8px;
+  width: 8px;
+  border: 3px solid #000;
+  transform: rotate(45deg);
+  align-self: center;
+}
+
+footer h3 {
+  font-weight: normal;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer a {
+  display: block;
+  margin: 40px auto;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: #f7f7f7;
+  width: 10em;
+  height: 2em;
+  line-height: 2em;
+  background: #c51c26;
+  border-radius: 20px;
+}
+
+.footer-band {
+  width: 100%;
+  height: 60px;
+  background: #fff8f8;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For Mobile Phones */
+
+  h2 {
+    font-size: 1.125em;
+  }
+
+  header {
+    height: 85px;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  header p {
+    font-size: 1.125em;
+  }
+
+  section p {
+    font-size: 0.5em;
+  }
+
+  .bio {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bio h2 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .bio p {
+    font-size: 0.875em;
+    width: 80%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .ul-all {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    line-height: 1.5em;
+    margin: 10px;
+  }
+
+  ul p {
+    font-size: 0.875em;
+  }
+
+  .diamond {
+    height: 5px;
+    width: 5px;
+    border: 1.5px solid #000;
+  }
+
+  footer h3 {
+    font-size: 1.125em;
+    width: 80%;
+    margin: 40px auto 0;
+  }
+
+  footer a {
+    font-size: 0.875em;
+    width: 10em;
+  }
+}
